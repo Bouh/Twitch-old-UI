@@ -24,3 +24,4 @@ This is a script for Tamper monkey extension.
     
     document.getElementsByTagName('head')[0].appendChild(style);
 
+[Donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=733STQQTLRD4U&source=url)
