@@ -3,19 +3,13 @@
 // @namespace   english
 // @description Twitch old UI style dark
 // @include     http*://*twitch.tv*
-// @version     1.5
+// @version     1.6
 // @run-at document-start
 // @grant       GM_addStyle
 // ==/UserScript==
 
-
-
 var style = document.createElement('style');
 style.type = 'text/css';
-style.innerHTML = ' body{--color-background-base: #61158e; font-family: Helvetica!important;} .tw-root--theme-dark body {background-color: #222222!important;}.tw-c-background-base { background-color: #522A81!important; }.tw-root--theme-dark .side-nav__overlay-wrapper { background-color: #181220!important; }.tw-root--theme-dark .chat-room { background-color: #202020!important; }  .tw-c-text-link .tw-flex-grow-1 {flex-grow: 1!important; }';
+style.innerHTML = 'h1{font-size:1em!important}div#dfp-directory-banner+div{display:none}body{--color-background-base:#6441A5;font-family:Helvetica!important}.tw-root--theme-dark body{background-color:#222!important}.tw-c-background-base{background-color:#522A81!important}.tw-root--theme-dark .side-nav__overlay-wrapper{background-color:#181220!important}.tw-root--theme-dark .chat-room{background-color:#202020!important}.tw-root--theme-dark .channel-root__right-column{background-color:#202020!important}.tw-c-text-link .tw-flex-grow-1{flex-grow:1!important}';
 
 document.getElementsByTagName('head')[0].appendChild(style);
-
-
-
-
